@@ -12,8 +12,15 @@ class Car // Classe
 }
 
 $car1 = new Car(); //Instancia da Classe
-echo $car1->color;
+$mercedes = new Car(); //Instancia da Classe
+$mercedes->comp = 'MercedesBenz';
+echo $mercedes->comp;
+echo "<br>";
+echo $car1->color; //getColor
+echo "<br>";
+echo $car1->color = 'green'; //setColor
 echo "<br>";
 echo $car1->hello();
+
 ?>
 
